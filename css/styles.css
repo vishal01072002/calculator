@@ -1,0 +1,77 @@
+body{
+    justify-content: center;
+    background: rgb(9,87,121);
+background: linear-gradient(129deg, rgb(22 15 207) 0%, rgb(0 241 255) 72%);
+}
+
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.81rem;
+    margin: 0;
+    margin-bottom: 45px;
+}
+.expression{
+    height: 5.625rem;
+    width: 17.8125rem;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+
+.container{
+    margin: auto 15.25rem;
+    padding: 1.25rem 0 2rem;
+    text-align: center;
+}
+.calc-body{
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: black;
+    margin: auto 21.875rem;
+    padding: 1.56rem 0;
+}
+button{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0.75rem 0;
+    margin: 0.625rem;
+    width: 3.43rem;
+    background: grey;
+    color: #006dff;
+
+}
+button:hover{
+    background: rgb(220, 220, 220);
+    color: black;
+}
+.keys{
+    font-size: 1.5rem;
+}
+
+input{
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+}
+
+.add,.sub,.mul,.divi,.dot,.equal{
+    background-color: #006dff;
+    color: #cde2ff;
+}
+
+.AC,.Del{
+    background-color: grey;
+    color: #f1f6f8;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.bracket{
+    color: #4747ff;
+    background-color: rgb(48, 47, 47);
+}
+@media screen and (max-width:1080px) {
+    .container{
+        margin: auto 0rem;
+    }
+    .calc-body{
+        margin: auto 0rem;
+    }
+}
