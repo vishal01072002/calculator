@@ -18,15 +18,17 @@ h2{
 }
 
 .container{
-    margin: auto 15.25rem;
+    margin: auto;
     padding: 1.25rem 0 2rem;
     text-align: center;
 }
 .calc-body{
+    width: 22rem;
+    justify-content: center;
     border: 0px solid black;
     border-radius: 15px;
     background-color: black;
-    margin: auto 21.875rem;
+    margin: auto;
     padding: 1.56rem 0;
 }
 button{
@@ -66,12 +68,4 @@ input{
 .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero,.bracket{
     color: #4747ff;
     background-color: rgb(48, 47, 47);
-}
-@media screen and (max-width:1080px) {
-    .container{
-        margin: auto 0rem;
-    }
-    .calc-body{
-        margin: auto 0rem;
-    }
 }
