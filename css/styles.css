@@ -11,32 +11,32 @@ h2{
     margin-bottom: 45px;
 }
 .expression{
-    height: 5.625rem;
-    width: 17.8125rem;
+    height: 5rem;
+    width: 17rem;
     border: 0px solid black;
     border-radius: 5px;
 }
 
 .container{
     margin: auto;
-    padding: 1.25rem 0 2rem;
+    padding: 1.2rem 0 2rem;
     text-align: center;
 }
 .calc-body{
-    width: 22rem;
+    width: 21rem;
     justify-content: center;
     border: 0px solid black;
     border-radius: 15px;
     background-color: black;
     margin: auto;
-    padding: 1.56rem 0;
+    padding: 1.4rem 0;
 }
 button{
     border: 2px solid black;
     border-radius: 8px;
-    padding: 0.75rem 0;
-    margin: 0.625rem;
-    width: 3.43rem;
+    padding: 0.7rem 0;
+    margin: 0.6rem;
+    width: 3.4rem;
     background: grey;
     color: #006dff;
 
@@ -46,14 +46,14 @@ button:hover{
     color: black;
 }
 .keys{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 input{
     background-color: black;
     color: white;
     font-size: 2rem;
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.7rem;
 }
 
 .add,.sub,.mul,.divi,.dot,.equal{
